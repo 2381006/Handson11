@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const addProduct = async (data: ProductFormInput) => {
   return await axios.post("/products/add", data);
 };
-
+ 
 const AddProduct = () => {
   const { mutate, isSuccess, isPending } = useMutation({
     mutationFn: addProduct

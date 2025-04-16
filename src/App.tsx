@@ -14,7 +14,7 @@ import BaseLayout from "./layouts/BaseLayout";
 import PrivateRoute from "./utils/PrivateRoute";
 import PublicRoute from "./utils/PublicRoute";
 import { AuthProvider } from "./utils/AuthProvider";
-
+ 
 const queryClient = new QueryClient();
 
 function App() {

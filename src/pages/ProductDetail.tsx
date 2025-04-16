@@ -18,7 +18,7 @@ interface ProductDetail {
   weight: number;
   dimensions: {
     width: number;
-    height: number;
+    height: number; 
     depth: number;
   };
   warrantyInformation: string;

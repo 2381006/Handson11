@@ -15,7 +15,7 @@ export type ProductFormInput = {
   category: string;
   discountPercentage: number;
 };
-
+ 
 const ProductForm: React.FC<ProductFormProps> = (props) => {
   const {
     register,

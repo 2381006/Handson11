@@ -12,7 +12,7 @@ export type LoginInput = {
 const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
-  const {
+  const { 
     register,
     handleSubmit,
     formState: { errors }

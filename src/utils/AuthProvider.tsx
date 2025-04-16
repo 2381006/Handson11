@@ -7,7 +7,7 @@ import {
     useContext,
     useState
   } from "react";
-  
+   
   type AuthContextType = {
     isAuthenticated: boolean;
     login: (token: string) => void;

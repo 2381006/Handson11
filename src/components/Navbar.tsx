@@ -10,7 +10,7 @@ import {
   import { useAuth } from "../utils/AuthProvider";
   
   const navigation = [{ name: "Post", to: "/posts", current: false }];
-  
+   
   function classNames(...classes: string[]) {
 	return classes.filter(Boolean).join(" ");
   }

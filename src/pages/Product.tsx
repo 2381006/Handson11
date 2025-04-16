@@ -16,7 +16,7 @@ interface ProductData {
 
 const fetchProductList = async () => {
   return await axios.get<ProductData>("/product")
-}
+} 
 
 const ProductSkeleton = () => {
   return (

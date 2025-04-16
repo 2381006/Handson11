@@ -14,7 +14,7 @@ const EditProduct = () => {
   const editProductMutation = useMutation({
     mutationFn: (data: ProductFormInput) => editProduct(data, id)
   });
-  const getProductDetail = useQuery({
+  const getProductDetail = useQuery( {
     queryKey: ["productDetail", id],
     queryFn: () => fetchProductDetail(id)
   });

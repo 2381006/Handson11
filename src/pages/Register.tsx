@@ -8,7 +8,7 @@ export type RegisterInput = {
   username: string;
   password: string;
 };
-
+ 
 const Register = () => {
   const navigate = useNavigate();
   const {

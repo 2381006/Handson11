@@ -11,7 +11,7 @@ type PostType = {
 const fetchPostList = async (token: string | null) => {
   return await axios.get<PostType[]>("/api/post", {
     headers: { Authorization: `Bearer ${token}` }
-  });
+  }); 
 };
 
 const PostCard = ({ title, content, image_url }: PostType) => {
